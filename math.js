@@ -11,27 +11,35 @@ console.log(sum);
 // **** Problem 2 ****
 // Store the difference between sum (above) and 7 in a variable.
 // Print the difference.
-
-
+let r=7;
+let difference= sum-r;
+console.log(difference);
 // **** Problem 3 ****
 // Store the product of difference and 3 in a variable.
 // Print the product.
-
+let v=3
+let product= difference * v
+console.log(product)
 
 // **** Problem 4 ****
 // Store the power of the product raised to an exponent of 2 in a variable.
 // Print the power.
-
-
+let u=2
+let power= product**u
+console.log(power)
 // **** Problem 5 ****
 // Store the quotient of the power divided by 4 in a variable.
 // Print the quotient.
-
+let y=4
+let quotient=power/y
+console.log(quotient)
 
 // **** Problem 6 ****
 // Store the remainder of the quotient divided by 2 in a variable.
 // Print the remainder.
-
+let k=2
+let remainder= quotient%k
+console.log(remainder)
 
 // **** Problem 7 ****
 // Print a boolean value (true/false) representing if the quotient from
