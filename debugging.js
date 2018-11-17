@@ -41,5 +41,5 @@ if(num2 >= num1 && num2 >= num3){
 }
 
 console.log(`The highest num was ${highnum}`);
-
+v
 
