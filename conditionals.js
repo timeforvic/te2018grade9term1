@@ -122,4 +122,4 @@ console.log("Super hot, but no quite")
 }
 else if( guess != myNum){
 	console.log("cold")
-}
+
