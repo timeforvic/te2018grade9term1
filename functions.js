@@ -24,7 +24,6 @@ function repeat(){
   problem1();
   problem1();
   problem1();
-  problem1();
 }
 
  repeat();
@@ -38,7 +37,10 @@ function repeat(){
 /******************************************************************************
 // Write a function that asks the user if they'd like to print your message
 // once or five times. Then call one of the two functions above based on
-// what the user decides.
+// what the user decides.*/
+
+
+
 
 
 
@@ -67,7 +69,6 @@ parrotTrouble(false, 6) → false
 
 // Remove comment below to test this function.
 //testParrotTrouble();
-
 
 
 
