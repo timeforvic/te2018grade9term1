@@ -7,15 +7,21 @@ let bankAccount = {
   owner: undefined,
   withdrawalLimit: 50,
   balance: 100,
-  bankName: 'Chase Bank',
-  deposit: function() {
-
+  bankName: "Chase Bank",
+  deposit: function(amount) {
+  let deposit = this.balance + amount
+  this.balance = deposit
+  console.log(`Deposit succes!!! You have deposited ${amount} . YAYAYAYAYAAYAY! ${deposit} is in account.`)
   },
   withdraw: function() {
-
+    if(( amount <= this.withdrawalLimit) && (amount <= this.balance) && (amount > 0)  ){
+      let deposit = this.balance -amount
+        this.balance = deposit
+    }
   },
   createGreeting: function() {
-
+    let greeting = "Hi, "+this.owner+"! Welcome to "+this.bankName + "!"
+    return greeting
   }
 };
 
@@ -25,11 +31,11 @@ let bankAccount = {
 // Then fill in the createGreeting method so that it will RETURN a greeting,
 // including the bank name and owner name
 // Our tests will then print that returned greeting to the terminal
-
+ bankAccount.owner = "Victor"
 // **** Problem 1 Tests ****
 console.log('**** Problem 1 Tests ****');
 console.log(`${typeof bankAccount.owner}... should be string`);
-console.log(`${bankAccount.createGreeting()}... should include a greeting, ${bankAccount.owner}, and ${bankAccount.bankName}`);
+console.log(`${bankAccount.createGreeting()}... should include a greeting, ${bankAccount.owner }, and ${bankAccount.bankName}`);
 
 
 // **** Problem 2: Deposit Monies ****

@@ -3,11 +3,11 @@ const READLINE = require("readline-sync");
 // **** Problem 1: print a message ****
 // Write a function that prints any message you want.
 
-function problem1(){
+function message(){
   console.log(`HEY POPS!`)
 }
 
-problem1()
+message()
 
 
 
@@ -19,11 +19,11 @@ problem1()
 // Write a function that calls the print message function five times.
 
 function repeat(){
-  problem1();
-  problem1();
-  problem1();
-  problem1();
-  problem1();
+  message();
+  message();
+  message();
+  message();
+  message();
 }
 
  repeat();
@@ -38,7 +38,10 @@ function repeat(){
 // Write a function that asks the user if they'd like to print your message
 // once or five times. Then call one of the two functions above based on
 // what the user decides.*/
+function print(){
+  let pri = READLINE.question ("Would you like to print one or five times?")
 
+}
 
 
 
@@ -67,8 +70,18 @@ parrotTrouble(false, 6) → false
 
 
 
-// Remove comment below to test this function.
-//testParrotTrouble();
+function parrotTrouble(talking, hour){
+  if(talking && hour < 7 || hour > 20){
+    return true;
+  }
+else{
+  return false
+  }
+}
+
+
+
+testParrotTrouble();
 
 
 
