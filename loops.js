@@ -10,7 +10,13 @@ stringTimes("Hi", 1) → "Hi"
 *******************************************************************************/
 
 function stringTimes(str, n) {
-
+let larger = ""
+let counter
+while(counter < n){
+  larger = larger + str
+  counter++
+}
+return largerx
 }
 
 // Remove comment below to test this function.

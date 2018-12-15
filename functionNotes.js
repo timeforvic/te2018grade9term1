@@ -41,5 +41,11 @@ if( userAge < 17){;
 	console.log("No R-rated mobvies!");
 }
 
+let dog = {
+	numlegs : 4,
+	amputate: function(legs) {
+		this.
+	}
+}
 
 

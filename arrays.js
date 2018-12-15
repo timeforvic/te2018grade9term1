@@ -1,3 +1,6 @@
+
+const READLINE = require("readline-sync")
+
 /******************************************************************************
                                    firstLast6()
 Instructions:
@@ -10,11 +13,18 @@ firstLast6([13, 6, 1, 2, 3]) → false
 *******************************************************************************/
 
 function firstLast6(nums) {
-
+if firstLast6.indexOf(6) = 0 || firstLast6.length - 1
+  return true;
 }
+  else {
+  return false
+  }
+
+
+    
 
 // Remove comment below to test this function.
-//testFirstLast6();
+testFirstLast6();
 
 /******************************************************************************
                                    midThree()
@@ -26,9 +36,9 @@ midThree([1, 2, 3, 4, 5]) → [2, 3, 4]
 midThree([8, 6, 7, 5, 3, 0, 9]) → [7, 5, 3]
 midThree([1, 2, 3]) → [1, 2, 3]
 *******************************************************************************/
-
+\
 function midThree(nums) {
-
+  if(nums.substring
 }
 
 // Remove comment below to test this function.

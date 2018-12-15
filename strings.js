@@ -30,7 +30,7 @@ frontAgain("ed") → true
 
 
 function frontAgain(str) {
-
+  
 }
 
 // Test this function.
